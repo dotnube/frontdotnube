@@ -1,0 +1,12 @@
+{
+"hola pepe" : "Hi pepe",
+"editando #variable_a_reemplazar": "editing #variable_a_reemplazar",
+"<h1>hola</h1>" : "<h1>Hi</h1>",
+"<h1>editando #variable1</h1>" : "<h1>Editing #variable1</h1>",
+"colector" : "Colect",
+"generador.listadoelementos": "asd",
+"generador": {
+    "listadoelementos": "siii",
+    "editandotitulo": "editing #variable_a_reemplazar"
+}
+}

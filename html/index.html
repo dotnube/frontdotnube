@@ -1,0 +1,171 @@
+<!doctype html>
+<html ng-app="" lang="es">
+<head>
+    <base href="./">
+    <meta charset="utf-8"/>
+    
+    <!-- agregado para celular -->
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'" /> -->
+
+     <!-- <script type="text/javascript" src="./cordova.js" ></script> -->
+
+    <!-- fin agregado celular -->
+
+
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"/>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <!-- <link href="http://remonube.dyndns.org/api/FormDinamicos/css" rel="stylesheet"> -->
+    <title>Dotnube</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="keywords" content="sistema, sistemaweb, formularios, formularios dinamicos, sistema a medida"/>
+    <meta name="author" content="Adit Soluciones Informaticas SRL" />
+    <meta name="copyright" content="Adit Soluciones Informaticas SRL" />
+    <meta name="description" content="Sistema Web a Medida, Solicite su version personalizada en segundos. El sistema multiplataforma mas Versatil"/>
+    <meta name="robots" content="index"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- <style>
+    @media print{
+        .doNotPrint{display:none !important;}
+     }
+  </style> -->
+  <!-- <script>
+          if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then((reg) => {
+                console.log('Service worker registered.', reg);
+                });
+        });
+}
+</script> -->
+<!-- <script>
+  import PerfectScrollbar from 'perfect-scrollbar';
+  const ps = new PerfectScrollbar(document.getElementById(bodytotal));
+</script> -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#ff9811">
+
+
+  
+<script>
+function readCookie(name) {
+    var nameEQ = name + "="; 
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) {
+        return decodeURIComponent(c.substring(nameEQ.length,c.length));
+      }
+    }
+    return null;
+  }
+
+window.onload = function(){
+    setTimeout(function(){
+      if(readCookie('cordovaenable') === 'true'){
+        var scriptElement=document.createElement('script');
+        scriptElement.type = 'text/javascript';
+        scriptElement.src = "./cordova.js";
+        document.head.appendChild(scriptElement);
+      }
+    }, 150);
+};
+</script>
+
+<link rel="stylesheet" href="styles.27c35615da4a7b8792da.css"></head>
+<body style="width: 100%; height: 100%; overflow: auto; margin:0px" id="bodytotal">
+<!-- <body style="width: 100%; height: 100%; overflow: auto;" id="bodytotal"> -->
+    <app-root>
+
+            <style>
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #ff9811;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #c72f2f transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .padreopaco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height: 100vh;
+    min-width: 100%;
+    /* background-color: #960a5e; */
+    background-color: #f17200;
+ }
+
+ 
+
+ @keyframes opacidad {
+  from {opacity: 0;}
+  to {opacity: 1;}
+} 
+
+@keyframes scale {
+0% {
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+50% {
+    transform: scale(1);
+    transform-origin: 50% 50%;
+}
+100% {
+    opacity:0.5;
+}
+}
+</style>
+             <div [hidden]="!loading" class="padreopaco">       
+                <div  >
+                    <div class="test">             
+                            <img alt="imagen" src="assets/img/angular2-logo.png" height="200px" width="200px"/>
+                    </div>
+                    <div>
+                      <app-animacioncargando></app-animacioncargando>
+                    </div>
+                </div>
+              </div>
+    
+    </app-root>      
+  <noscript>Por favor Active Javascript para continuar usando la Aplicacion.</noscript>
+<script type="text/javascript" src="runtime.6cd5738701fcec213d02.js"></script><script type="text/javascript" src="polyfills.edda19fea29ca216c5d5.js"></script><script type="text/javascript" src="scripts.55ab9541b464e8d6b4dd.js"></script><script type="text/javascript" src="main.400a375e58f86c55de29.js"></script></body>
+</html>
+
+

@@ -1,0 +1,25 @@
+{
+  "short_name": "Remonube",
+  "name": "Remonube",
+  "start_url": "/#/home",
+  "display": "standalone",
+  "theme-color": "#ff9811",
+  "background_color": "#ff9811",
+  "icons": [{
+      "src": "./android/hdpi.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },{
+      "src": "./android/mdpi.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },{
+      "src": "./android/xhdpi.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },{
+      "src": "./android/128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }]
+}

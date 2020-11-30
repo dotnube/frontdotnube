@@ -1,0 +1,21 @@
+{
+  "name": "RemonubeFront",
+  "version": "1.0.0",
+  "description": "Sistema Remonube",
+  "main": "./server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adit soluciones informaticas srl",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "body-parser": "^1.18.2",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "event-stream": "^4.0.1",
+    "express": "^4.16.2",
+    "http-server": "^0.12.3",
+    "strong-error-handler": "^1.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{  "global": {
+        "guardar":"Guardar",
+        "guardarcomo": "Guardar Como...",
+        "cancelar": "Cancelar",
+        "nuevo": "Nuevo",
+        "editar": "Editar",
+        "cerrarsesion": "Cerrar Sesion",
+        "modorevision": "Modo Revision",
+        "eliminar": "Eliminar",
+        "cambiossinguardar": "Cambios sin Guardar",
+        "deseaguardar": "Desea Guardar los Cambios Realizados?"
+    },
+    "generador": {
+        "creando": "Creando" ,
+        "generales": "Generales",
+        "listadoelementos": "Listado de Formularios Existentes",
+        "editandotitulo": "Editando: #var"
+    }
+}
